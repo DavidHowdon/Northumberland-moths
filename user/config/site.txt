@@ -1,0 +1,61 @@
+name: Northumberland Moths Atlas (Test Version)
+# header-background-colour: white
+# header-text-colour: black
+# header-logo: badge-circle.png
+# header-logo-height: 80
+# ADD SOME LINKS TO OTHER PAGES WHEN CREATED
+tabs:
+  - tab: overview
+    caption: Overview
+  - tab: zoom
+    caption: Explore
+  - tab: details
+    caption: Info
+  - tab: charts
+    caption: Temporal
+  - tab: gallery
+    caption: Gallery
+overview:
+  height: 900
+  boundary: gb67
+  grid-display: dashed
+  buffer-west: 10000
+  buffer-east: 10000
+  buffer-south: 10000
+  buffer-north: 10000
+  land-colour: "#eeeeee"
+  boundary-colour: black
+  grid-colour: black
+  boundary-width: 1.7
+  download-control: true
+  download-text: Demo atlas - Northumberland Moths
+  download-info: true
+resolution: tetrad monad
+dot-shape: control
+# dot-colour: black
+map-types: standard, density, timeslice
+legends:
+  - id: density
+    x: 10
+    y: 10
+    scale: 1.2
+  - id: timeslice
+    x: 10
+    y: 10
+    scale: 1.2
+  - id: standard
+    x: 10
+    y: 10
+    scale: 1.2
+timeslice:
+  colour1: reg
+  colour2: yellow
+  colour3: green
+  threshold1: 1970
+  threshold2: 2000
+#Charts:
+#  aspect-ratio: 0.4
+#  yearly-min: 1980
+#  yearly-max: 2020
+#  include: weekly yearly
+
