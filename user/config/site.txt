@@ -30,32 +30,32 @@ overview:
   download-control: true
   download-text: Demo atlas - Northumberland Moths
   download-info: true
-resolution: tetrad monad
-dot-shape: control
+common:
+  resolution: tetrad monad
+  dot-shape: control
 # dot-colour: black
-map-types: standard, density, timeslice
-legends:
-  - id: density
-    x: 10
-    y: 10
-    scale: 1.2
-  - id: timeslice
-    x: 10
-    y: 10
-    scale: 1.2
-  - id: standard
-    x: 10
-    y: 10
-    scale: 1.2
-timeslice:
-  colour1: reg
-  colour2: yellow
-  colour3: green
-  threshold1: 1970
-  threshold2: 2000
+  map-types: standard, density, timeslice
+  legends:
+    - id: density
+      x: 10
+      y: 10
+      scale: 1.2
+    - id: timeslice
+      x: 10
+      y: 10
+      scale: 1.2
+    - id: standard
+      x: 10
+      y: 10
+      scale: 1.2
+  timeslice:
+    colour1: reg
+    colour2: yellow
+    colour3: green
+    threshold1: 1970
+    threshold2: 2000
 #Charts:
 #  aspect-ratio: 0.4
 #  yearly-min: 1980
 #  yearly-max: 2020
 #  include: weekly yearly
-
