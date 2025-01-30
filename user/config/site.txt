@@ -33,8 +33,9 @@ overview:
 common:
   resolution: tetrad monad
   dot-shape: control
-# dot-colour: black
-  map-types: standard, density, timeslice
+  dot-opacity: control
+  dot-colour: black
+  map-types: standard density timeslice
   legends:
     - id: density
       x: 10
