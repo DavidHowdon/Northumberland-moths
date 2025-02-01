@@ -17,7 +17,7 @@ tabs:
     caption: Gallery
 overview:
   height: 900
-  boundary: gb67
+  boundary: gb67 gb68
   grid-display: dashed
   buffer-west: 10000
   buffer-east: 10000
