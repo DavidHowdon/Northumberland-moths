@@ -17,7 +17,7 @@ tabs:
     caption: Gallery
 overview:
   height: 900
-  boundary: gb67 gb68
+  custom-boundary: /user/config/boundary/Northumberland_VC.geojson
   grid-display: dashed
   buffer-west: 10000
   buffer-east: 10000
